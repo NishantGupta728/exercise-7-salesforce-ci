@@ -13,4 +13,4 @@ jobs:
 
       - name: Validate Salesforce Metadata
         run: |
-          echo "Validate Salesforce Metadata"
+          echo "Validate the Salesforce Metadata"
