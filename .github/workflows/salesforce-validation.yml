@@ -1,0 +1,16 @@
+name: Salesforce Validation
+
+on:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate Salesforce Metadata
+        run: |
+          echo "Validate Salesforce Metadata"
